@@ -1,5 +1,5 @@
 import qrcode
 
-qr = qrcode.make("import subprocess; subprocess.run(['cat', '/etsy/passwd'])")
-qr.save("eval.png")
+qr = qrcode.make("https://github.com/et7118/BT-work-experience-qr-reading")
+qr.save("repo.png")
 
