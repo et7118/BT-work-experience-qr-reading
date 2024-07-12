@@ -1,6 +1,0 @@
-id,uuid,first_name,last_name,email,access,is_speaker,created_at
-0,123e4567-e89b-12d3-a456-426614174000,John,Doe,john.doe@example.com,1,0,2023-04-01
-1,123e4567-e89b-12d3-a456-426614174001,Jane,Doe,jane.doe@example.com,0,0,2023-04-02
-2,123e4567-e89b-12d3-a456-426614174002,Jim,Beam,jim.beam@example.com,1,0,2023-04-03
-3,123e4567-e89b-12d3-a456-426614174003,Jill,Hill,jill.hill@example.com,0,1,2023-04-04
-4,123e4567-e89b-12d3-a456-426614174004,Jack,Hill,jack.hill@example.com,1,0,2023-04-05
