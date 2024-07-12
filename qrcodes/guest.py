@@ -1,4 +1,4 @@
-# data structure for guests -- will i need it? who knows?
+# data structure for guests -- will i need it? who knows? I don't need it actually
 
 def reference(id, guests):
     for guest in guests:

@@ -4,7 +4,7 @@ import csvReader
 
 
 # makes the codes for all the guests in the csv file
-def codes_from_file(file_name):
+def codes_from_file(file_name: str) -> None:
 
     num_of_guests = len(csvReader.tuplify(file_name))  # get the number of guests from the csv file
 
@@ -19,7 +19,7 @@ def codes_from_file(file_name):
 
 
 # makes the code for a single guest
-def codes_from_tuple(input_data):
+def codes_from_tuple(input_data: tuple) -> None:
 
     data = makeData.struct(input_data[6], input_data[5], input_data[1])
 

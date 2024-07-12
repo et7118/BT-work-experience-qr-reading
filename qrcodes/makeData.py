@@ -6,14 +6,14 @@ import csvReader
 
 
 # makes the ids and appends them to list ids
-def make_ids(ids):
+def make_ids(ids: list) -> None:
     id = uuid.uuid4()
     ids.append(str(id))
 
 
 # creates the structure for the data
-def struct(is_speaker, access, uuid):
-    data = {
+def struct(is_speaker: bool, access: bool, uuid: str) -> dict:
+    data: dict = {
         "is_speaker": is_speaker,
         "access": access,
         "uuid": uuid
@@ -23,7 +23,7 @@ def struct(is_speaker, access, uuid):
 
 
 # make the tuples from tuplify function into the struct below
-def structify(tuplified_data):
+def structify(tuplified_data: list) -> list:
     result = []
     for data in tuplified_data:
         result.append(struct(data[6], data[5], data[1]))
@@ -31,7 +31,7 @@ def structify(tuplified_data):
 
 
 # serializes data in a json format, and returns string
-def make_data(data):
+def make_data(data: list[dict]) -> str:
     return json.dumps(data)
 
 

@@ -1,6 +1,6 @@
 # writes the extra uid column to the csv input file
 import csv
-from makeData import make_ids
+from qrcodes.makeData import make_ids
 
 # adds uuids to the list dat
 dat = []

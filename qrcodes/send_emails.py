@@ -35,18 +35,7 @@ if __name__ == "__main__":
     subject = "QR Code Test Email"
 
     # using tripple quotes to make a multi-line string - apparently that is a thing in Python
-    body = """
-Hello George,
-
-This is a test email containing the qr code for the first guest in the database (really just my csv file).
-Basically, it is a function called send_email that takes in the sender's email, the sender's password, the recipient's email, the subject of the email, the body of the email, and the image to attach to the email.
-The credentials for my test email are as follows:
-email: bigbarrold.dev@gmail.com
-password: hgcq wzzf hsoj baxm
-
-In the final project, this can be called at the end of the loop that generates the uuids and qr codes for each guest in the database. Pass in the email of the guest as the recipient and the qr code image as the attachment.
-Anyway, I have spent way too much time trying to get this to work, so I'm just going to update my branch of the project and assume all is well.
-"""
+    body = "Hello from Python!"
     image = "guest0.png"
 
     recipients = ["icallumbird@icloud.com"]
