@@ -1,5 +1,5 @@
-import qrcodes.makeCodes as makeCodes
-import qrcodes.makeData as makeData
+import makeCodes
+import makeData
 import csvReader
 
 
