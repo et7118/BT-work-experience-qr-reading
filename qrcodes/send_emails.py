@@ -35,7 +35,6 @@ if __name__ == "__main__":
     subject = "QR Code Test Email"
 
     # using tripple quotes to make a multi-line string - apparently that is a thing in Python
-<<<<<<< Updated upstream:send_emails.py
     body = """
 Hello George,
 
@@ -49,11 +48,6 @@ In the final project, this can be called at the end of the loop that generates t
 Anyway, I have spent way too much time trying to get this to work, so I'm just going to update my branch of the project and assume all is well.
 """
     image = "guest0.png"
-=======
-    body = "Hello, this is Python. I am sending you an email with an attachment please scan."
-
-    image = "/Documents/Code/Python/BT_event/rickroll.png"
->>>>>>> Stashed changes:qrcodes/send_emails.py
 
     recipients = ["icallumbird@icloud.com"]
 
